@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
     const [data, setData] = React.useState(null);
-    const url = "http://127.0.0.1:3500";
+    const url = "http://18.118.202.204:8000/test";
 
     const GetData = () => {
         axios.get(url).then((res) => {
