@@ -7,7 +7,7 @@ function App() {
     // const url = "http://127.0.0.1:8000/test";
 
     const GetData = () => {
-        axios.get(url).then((res) => {
+        axios.get(url, { withCredentials: true }).then((res) => {
             setData(res.data);
         });
     };
