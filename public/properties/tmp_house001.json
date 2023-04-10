@@ -1,0 +1,129 @@
+{
+    "link": "https://www.realtor.com/realestateandhomes-detail/137-Nadine-Dr_Cheektowaga_NY_14225_M40961-90086",
+    "Property Features": {
+        "Bedrooms": {
+            "Bedroom 1 Dimensions": "10 x 11",
+            "Bedroom 2 Dimensions": "11 x 12",
+            "Bedroom 3 Dimensions": "16 x 16",
+            "Bedroom 4 Dimensions": "9 x 15",
+            "Bedroom 1 Level": "First",
+            "Bedroom 2 Level": "First",
+            "Bedroom 3 Level": "Second",
+            "Bedroom 4 Level": "Second"
+        },
+        "Other Rooms": {
+            "Total Rooms": 8,
+            "Family Room Dimensions": "14 x 20",
+            "Living Room Dimensions": "13 x 17",
+            "Family Room Level": "First",
+            "Living Room Level": "First",
+            "Basement Description": "Full"
+        },
+        "Bathrooms": {
+            "Total Bathrooms": 1.10,
+            "Full Bathrooms": 1,
+            "1/2 Bathrooms": 1,
+            "Full Bathrooms On Level 1": 1,
+            "Half Bathrooms On Level 2": 1
+        },
+        "Interior Features": {
+            "Ceiling Fan": true,
+            "Circuit Breakers - Some": true,
+            "Copper Plumbing - Some": true,
+            "Pex Plumbing- Some": true,
+            "Sliding Glass Door": true,
+            "Sump Pump": true,
+            "Water Softener - Owned": true,
+            "Flooring": {
+                "Floor Description": [
+                    "Hardwood-Some",
+                    "Tile-Some",
+                    "Vinyl-Luxury-Some",
+                    "Wall To Wall Carpet-Some"
+                ]
+            }
+        },
+        "Appliances": {
+            "Dishwasher": true,
+            "Microwave": true,
+            "Oven/Range Gas": true,
+            "Refrigerator": true
+        },
+        "Heating and Cooling": {
+            "Fireplace Features": {
+                "# Fireplaces - Gas": 1
+            },
+            "Heating Fuel": "Gas",
+            "Number of Fireplaces": 1,
+            "Water Heaters": "Gas",
+            "AC-Central": true,
+            "AC-Multi-Zone": true,
+            "Forced Air": true
+        },
+        "Kitchen and Dining": {
+            "Kitchen Description": "Eat-In, Granite Counter",
+            "Kitchen Dimensions": "9 x 16",
+            "Kitchen Level": "First"
+        },
+        "Exterior and Lot Features": {
+            "Awning": true,
+            "Deck": true,
+            "Fully Fenced Yard": true,
+            "Garage Door Opener": true,
+            "Patio": true,
+            "Frontage Type": 55
+        },
+        "Land Info": {
+            "Lot Description": "Lot Information: Neighborhood Street",
+            "Lot Size Acres": 0.13,
+            "Lot Size Square Feet": 5663
+        },
+        "Garage and Parking": {
+            "Driveway": {
+                "Driveway Description": "Concrete"
+            },
+            "Garage Spaces": 2,
+            "Garage Description": "Detached Garage",
+            "Garage Features": {
+                "Electrical Service": true,
+                "Storage": true
+            }
+        },
+        "Homeowners Association": {
+            "Association": "No",
+            "Calculated Total Monthly Association Fees": 0
+        },
+        "School Information": {
+            "School District": "Maryvale"
+        },
+        "Other Property Info": {
+            "Annual Tax Amount": 5898,
+            "Source Listing Status": "A-Active",
+            "County": "Erie",
+            "Directions": "gps",
+            "Source Property Type": "Single Family Residential",
+            "Area": "Cheektowaga-143089",
+            "Source Neighborhood": "Cheektowaga-143089",
+            "Lot Number": 15,
+            "Source System Name": "C2C"
+        },
+        "Building and Construction": {
+            "Total Square Feet Living": 1855,
+            "Year Built": 1959,
+            "Attic": "Crawl Space",
+            "Building Exterior Type": "Brick, Vinyl",
+            "Foundation Details": "Poured",
+            "Property Age": 64,
+            "Roof": "Asphalt",
+            "Levels or Stories": 1.7,
+            "House Style": "2 Story",
+            "Total Above Grade Sqft Area": 1855,
+            "Total Area Sqft": 1855,
+            "Year Built Details": "Existing"
+        },
+        "Utilities": {
+            "Sewer": "Sewer Connected",
+            "Water Source": "Public Connected"
+        }
+    }
+}

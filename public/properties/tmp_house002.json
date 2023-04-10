@@ -1,0 +1,114 @@
+{
+    "link": "https://www.realtor.com/realestateandhomes-detail/4840-Abbott-Rd_Orchard-Park_NY_14127_M38387-37359",
+    "Property Features": {
+        "Bedrooms": {
+            "Bedrooms": 4,
+            "Bedrooms On Level 1": 1,
+            "Bedrooms On Level 2": 3,
+            "Bedroom 1 Dimensions": "10 x 12",
+            "Bedroom 2 Dimensions": "12 x 17",
+            "Bedroom 3 Dimensions": "13 x 15",
+            "Bedroom 4 Dimensions": "11 x 15",
+            "Bedroom 1 Level": "First",
+            "Bedroom 2 Level": "Second",
+            "Bedroom 3 Level": "Third",
+            "Bedroom 4 Level": "Second"
+        },
+        "Other Rooms": {
+            "Total Rooms": 9,
+            "Other 1 Dimensions": "12 x 18",
+            "Other 1 Level": "Basement",
+            "Other 2 Dimensions": "14 x 10",
+            "Other 2 Level": "Basement",
+            "Family Room Dimensions": "13 x 19",
+            "Living Room Dimensions": "13 x 16",
+            "Family Room Level": "First",
+            "Living Room Level": "First",
+            "Basement Description": "Full, Partially Finished"
+        },
+        "Bathrooms": {
+            "Total Bathrooms": 2.1,
+            "Full Bathrooms": 2,
+            "1/2 Bathrooms": 1,
+            "Half Bathrooms On Level 1": 1,
+            "Full Bathrooms On Level 2": 2
+        },
+        "Interior Features": {
+            "Cathedral Ceiling": true,
+            "Circuit Breakers - Some": true,
+            "Sump Pump": true,
+            "Flooring": "Floor Description: Laminate-Some, Vinyl-Luxury-Some, Wall To Wall Carpet-Some"
+        },
+        "Appliances": {
+            "Dishwasher": true,
+            "Dryer": true,
+            "Microwave": true
+        },
+        "Heating and Cooling": {
+            "Fireplace Features": {
+                "# Fireplaces - Woodburning": 1
+            },
+            "Heating Fuel": "Gas",
+            "Number of Fireplaces": 1,
+            "Water Heaters": "Gas",
+            "AC-Central": true,
+            "Forced Air": true
+        },
+        "Kitchen and Dining": {
+            "Kitchen Description": "Eat-In, Pantry",
+            "Kitchen Dimensions": "11 x 12",
+            "Kitchen Level": "First"
+        },
+        "Exterior and Lot Features": {
+            "Fully Fenced Yard": true,
+            "Patio": true,
+            "Frontage Type": 133
+        },
+        "Land Info": {
+            "Lot Description": "Lot Information: Primary Road",
+            "Lot Size Acres": 0.7128,
+            "Lot Size Square Feet": 31050
+        },
+        "Garage and Parking": {
+            "Driveway": "Driveway Description: Concrete",
+            "Garage Spaces": 2,
+            "Garage Description": "Attached Garage"
+        },
+        "Homeowners Association": {
+            "Association": false,
+            "Calculated Total Monthly Association Fees": 0
+        },
+        "School Information": {
+            "School District": "Hamburg"
+        },
+        "Other Property Info": {
+            "Annual Tax Amount": 8409,
+            "Source Listing Status": "A-Active",
+            "County": "Erie",
+            "Directions": "Abbott Rd between Big Tree & Armour.",
+            "Source Property Type": "Single Family Residential",
+            "Area": "Orchard Park-146089",
+            "Source Neighborhood": "Orchard Park-146089",
+            "Lot Number": 17,
+            "Source System Name": "C2C"
+        },
+        "Building and Construction": {
+            "Total Square Feet Living": 1862,
+            "Year Built": 1989,
+            "Attic": "Crawl Space",
+            "Building Exterior Type": "Brick and Frame, Vinyl",
+            "Foundation Details": "Poured",
+            "Property Age": 34,
+            "Roof": "Asphalt",
+            "Levels or Stories": 2.0000,
+            "House Style": "Colonial",
+            "Total Above Grade Sqft Area": 1862,
+            "Total Area Sqft": 1862,
+            "Year Built Details": "Existing"
+        },
+        "Utilities": {
+            "Sewer": "Sewer Description: Sewer Connected",
+            "Water Source": "Public Connected"
+        }
+    }
+}

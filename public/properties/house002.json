@@ -1,0 +1,37 @@
+{
+    "Property Features": {
+        "Flooring": [
+            "Laminate-Some, Vinyl-Luxury-Some, Wall To Wall Carpet-Some"
+        ],
+        "Bedroom": {
+            "Dimensions (Sq. feet)": "10 x 12",
+            "Level": "First",
+            "Description": "[Carpet-Flooring, Ceiling Fan]",
+            "Scenery": ""
+        },
+        "Livingroom": {
+            "Dimensions (Sq. feet)": "13 x 16",
+            "Level": "First",
+            "Description": "[Carpet-Flooring, Ceiling Fan, Fireplace]",
+            "Scenery": ""
+        },
+        "Bathroom": {
+            "Dimensions (Sq. feet)": "",
+            "Level": "First",
+            "Description": "[Full Bath, Tile-Flooring]",
+            "Scenery": ""
+        },
+        "Kitchen": {
+            "Dimensions (Sq. feet)": "11 x 12",
+            "Level": "First",
+            "Description": "[Granite Counter, L-Shaped Kitchen, Tile-Flooring]",
+            "Scenery": ""
+        },
+        "Balcony": {
+            "Dimensions (Sq. feet)": "",
+            "Level": "First",
+            "Description": "[Patio, Fully Fenced Yard]",
+            "Scenery": ""
+        }
+    }
+}
