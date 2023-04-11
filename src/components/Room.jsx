@@ -2,6 +2,7 @@ import { React, useState, useEffect } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import ReactScollableFeed from "react-scrollable-feed";
 import '../index.css';
+import axios from "axios";
 
 export const Room = () => {
     const params = useParams();
@@ -26,24 +27,17 @@ export const Room = () => {
         const restoreData = async () => {
             let response = null;
             try {
-                response = await fetch(url, {
-                    method: 'POST',
-                    headers: {
-                        'Access-Control-Allow-Origin': '*',
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({ "token": token })
+                response = await axios.post(url, {
+                    "token": token
                 }).then((res) => {
-                    if (!res.ok) {
-                        throw new Error('Failed to fetch data');
-                    }
-                    const data = res.json();
+                    const data = res.data;
                     return data
                 });
             } catch (error) {
                 console.error(error);
             }
-            console.log(response);
+            // console.log(response);
+            // console.log(response.messages)
             setMessages(response.messages);
         };
 
@@ -91,6 +85,9 @@ export const Room = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+        if (!inputValue.trim()) { // Check if input is empty or only whitespace
+            return;
+        }
         const message = {
             role: "Dealer",
             msg: inputValue,
