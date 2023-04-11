@@ -114,7 +114,12 @@ export const Room = () => {
                         <img src={image} alt="jsx-a11y" />
                     </div>
 
+                    <div className="code">
+                        {count < 20} ? <p>Turn No.: {count} ({20 - count} turns left.)</p> : <p>Please close the window.</p>
+                    </div>
+
                     <center><h3>Features that you need to inform to a customer</h3></center>
+
                     <div className="content">
                         <ul>
                             <li>
@@ -134,7 +139,6 @@ export const Room = () => {
                                 {houseProperty["Scenery"] ? houseProperty["Scenery"] : "No Info."}
                             </li>
                         </ul>
-                        <div className="code">{count > 20} ? <p>Turn No.: {count} ({20 - count} turns left.)</p> : <p>Please close the window.</p> </div>
                     </div>
 
 
