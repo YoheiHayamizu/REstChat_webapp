@@ -28,6 +28,7 @@ export const Room = () => {
             let response = null;
             try {
                 response = await axios.post(url, {
+                    'Access-Control-Allow-Credentials': true,
                     "token": token
                 }).then((res) => {
                     const data = res.data;
