@@ -23,6 +23,8 @@ export const Room = () => {
     const [inputValue, setInputValue] = useState('');
     const [ws, setWs] = useState(null);
 
+    const [count, setCount] = useState(0);
+
     useEffect(() => {
         const restoreData = async () => {
             let response = null;
@@ -83,7 +85,7 @@ export const Room = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        if (!inputValue.trim()) { // Check if input is empty or only whitespace
+        if (!inputValue.trim() || count > 20) { // Check if input is empty or only whitespace
             return;
         }
         const message = {
@@ -93,6 +95,7 @@ export const Room = () => {
         };
         setMessages((prevMessages) => [...prevMessages, message]);
         setInputValue('');
+        setCount(count + 1);
         console.log("Message Sent: " + message.msg);
         ws.send(message.msg);
     };
@@ -131,6 +134,7 @@ export const Room = () => {
                                 {houseProperty["Scenery"] ? houseProperty["Scenery"] : "No Info."}
                             </li>
                         </ul>
+                        <div className="code">{count > 20} ? <p>Turn No.: {count} ({20 - count} turns left.)</p> : <p>Please close the window.</p> </div>
                     </div>
 
 
