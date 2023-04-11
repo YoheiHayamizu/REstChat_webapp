@@ -27,10 +27,7 @@ export const Room = () => {
         const restoreData = async () => {
             let response = null;
             try {
-                response = await axios.post(url, {
-                    withCredentials: true,
-                    "token": token
-                }).then((res) => {
+                response = await axios.post(url, { withCredentials: true, "token": token }).then((res) => {
                     const data = res.data;
                     return data
                 });
