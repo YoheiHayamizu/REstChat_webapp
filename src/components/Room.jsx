@@ -115,7 +115,7 @@ export const Room = () => {
                     </div>
 
                     <div className="code">
-                        {count < 20} ? <p>Turn No.: {count} ({20 - count} turns left.)</p> : <p>Please close the window.</p>
+                        {count < 20 ? <p>Turn No.: {count} ({20 - count} turns left.)</p> : <p>Please close the window.</p>}
                     </div>
 
                     <center><h3>Features that you need to inform to a customer</h3></center>
