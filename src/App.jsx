@@ -11,21 +11,22 @@ import { Page404 } from "./components/Page404";
 
 function App() {
     return (
-        <BrowserRouter>
-            <div className="App-header">
-                <header>
-                    <h1>REst Chat</h1>
-                </header>
-            </div>
-            <Routes>
-                <Route key="/" path="/" exact={true} element={<Home />} />
-                <Route key="/room" path="/room" exact={true} element={<Room />}>
-                    <Route key=":id" path=":id" element={<Room />} />
-                </Route>
-                <Route key="*" path="*" exact={false} element={<Page404 />} />
-            </Routes>
-        </BrowserRouter>
-
+        <div className="App">
+            <BrowserRouter>
+                <div className="App-header">
+                    <header>
+                        <h1>REst Chat</h1>
+                    </header>
+                </div>
+                <Routes>
+                    <Route key="/" path="/" exact={true} element={<Home />} />
+                    <Route key="/room" path="/room" exact={true} element={<Room />}>
+                        <Route key=":id" path=":id" element={<Room />} />
+                    </Route>
+                    <Route key="*" path="*" exact={false} element={<Page404 />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
     );
 }
 

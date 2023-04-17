@@ -1,7 +1,6 @@
 import { React, useState, useEffect } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import ReactScollableFeed from "react-scrollable-feed";
-import '../index.css';
 import axios from "axios";
 
 export const Room = () => {
@@ -14,10 +13,10 @@ export const Room = () => {
     const jsonFile = "../properties/" + locations.state.houseInstance.houseId + ".json";
     const [houseProperty, setHouseProperty] = useState({});
 
-    // const url = 'http://localhost:3500/refresh_token'
-    // const ws_url = 'ws://localhost:3500/chat?token=' + token
-    const url = 'https://rest-dlg-server.herokuapp.com/refresh_token'
-    const ws_url = 'wss://rest-dlg-server.herokuapp.com/chat?token=' + token
+    const url = 'http://localhost:3500/refresh_token'
+    const ws_url = 'ws://localhost:3500/chat?token=' + token
+    // const url = 'https://rest-dlg-server.herokuapp.com/refresh_token'
+    // const ws_url = 'wss://rest-dlg-server.herokuapp.com/chat?token=' + token
 
     const [messages, setMessages] = useState([]);
     const [inputValue, setInputValue] = useState('');
@@ -110,16 +109,11 @@ export const Room = () => {
                 <div className='instruction-box'>
                     <h2>{room.charAt(0).toUpperCase() + room.slice(1).toLowerCase()}</h2>
 
-                    <div className="content">
+                    <div>
                         <img src={image} alt="jsx-a11y" />
                     </div>
 
-                    <div className="code">
-                        {count < 20 ? <p>Turn No.: {count} ({20 - count} turns left.)</p> : <p>Please close the window.</p>}
-                    </div>
-
-                    <center><h3>Features that you need to inform to a customer</h3></center>
-
+                    <h3>Features that you need to inform to a customer</h3>
                     <div className="content">
                         <ul>
                             <li>
@@ -158,10 +152,8 @@ export const Room = () => {
                     <ReactScollableFeed>
                         <div className="messages">
                             {messages.map((message, index) => (
-                                <div key={index}>
-                                    <span>
-                                        <strong>{message.role}: </strong> {message.msg}
-                                    </span>
+                                <div key={index} className="text ">
+                                    <div><strong>{message.role}: </strong> {message.msg}</div>
                                     {/* <span className="muted" id="muted">
                                     {message.timestamp}
                                 </span> */}
@@ -173,7 +165,7 @@ export const Room = () => {
                     <form onSubmit={handleSubmit}>
                         <div className="inputs">
                             <input
-                                type="text"
+                                // type="text"
                                 placeholder="Message"
                                 rows="3"
                                 id="message"
@@ -202,6 +194,9 @@ export const Room = () => {
                         </button>
                     </div>
                 </div > */}
+            </div>
+            <div className="App-button">
+                {count < 20 ? <div>Turn No.: {count} ({20 - count} turns left.)</div> : <div>Please close the window.</div>}
             </div>
         </div >
     );
