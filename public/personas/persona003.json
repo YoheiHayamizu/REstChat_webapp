@@ -1,29 +1,8 @@
 {
-    "name": "Emily Rodriguez",
     "age": 36,
     "gender": "Female",
     "marital_status": "Married with three young children",
     "education": "Master's degree in education",
     "income": "$120,000 per year",
-    "location": "Suburban area",
-    "channels": [
-        "social media",
-        "parenting blogs",
-        "local community events"
-    ],
-    "tech": [
-        "smartphones",
-        "laptops",
-        "tablets"
-    ],
-    "dreams_and_goals": [
-        "Finding a spacious home with a backyard and play area for her children",
-        "Living in a safe and friendly neighborhood with good schools",
-        "Being able to work from home and spend more time with her family"
-    ],
-    "pain_points_and_challenges": [
-        "Finding a home that is both spacious and affordable",
-        "Navigating the home buying process with young children and a busy work schedule",
-        "Balancing the needs of her family and her own professional goals"
-    ]
+    "location": "Suburban area"
 }

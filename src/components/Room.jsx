@@ -135,10 +135,10 @@ export const Room = () => {
                     <h2>Customer's persona</h2>
                     <div className="content">
                         <ul>
-                            <li>
+                            {/* <li>
                                 <strong> Name: </strong>
                                 {personaData["name"]}
-                            </li>
+                            </li> */}
                             <li>
                                 <strong> Age: </strong>
                                 {personaData["age"]}
@@ -167,7 +167,7 @@ export const Room = () => {
                                 <strong> Channels: </strong>
                                 {personaData["channels"]}
                             </li> */}
-                            <li>
+                            {/* <li>
                                 <strong> Tech: </strong>
                                 {personaData["tech"].map((data, index) => (
                                     <div key={index} className="text ">
@@ -190,7 +190,7 @@ export const Room = () => {
                                         <div>{data}</div>
                                     </div>
                                 ))}
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
 

@@ -1,30 +1,8 @@
 {
-    "name": "Sophia Chen",
     "age": 45,
     "gender": "Female",
     "marital_status": "Married with adult children",
     "education": "Bachelor's degree in business",
     "income": "$2 million+ per year",
-    "location": "Based in China, looking to buy a second home in the US",
-    "channels": [
-        "luxury real estate websites",
-        "personal referrals",
-        "international property expos"
-    ],
-    "tech": [
-        "smartphone",
-        "laptop",
-        "tablets",
-        "familiar with advanced real estate apps and software"
-    ],
-    "dreams_and_goals": [
-        "Investing in a luxurious second home in the US as a vacation property and potential rental investment",
-        "Finding a property with beautiful views and proximity to cultural attractions and fine dining",
-        "Securing a property with high-end amenities and advanced security measures for peace of mind"
-    ],
-    "pain_points_and_challenges": [
-        "Navigating the complex legal and financial requirements for buying international property",
-        "Dealing with language and cultural barriers in communication with real estate agents and sellers",
-        "Ensuring the security and maintenance of a property from a distance"
-    ]
+    "location": "Based in China, looking to buy a second home in the US"
 }

@@ -80,36 +80,6 @@ export const Home = () => {
     }
 
     useEffect(() => {
-        // setCount((count) => count + 1); //increment this Hook
-        // const updateCount = () => {
-        //     // let count = 0;
-        //     if (count < 100) {
-        //     }
-        // };
-        // updateCount();
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
-        setHouseInstance(selectInstance());
         setHouseInstance(selectInstance());
         // console.log(houseInstance);
     }, [selectInstance(), houseInstance]);
