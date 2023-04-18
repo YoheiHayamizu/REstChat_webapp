@@ -13,10 +13,10 @@ export const Room = () => {
     const houseProperty = locations.state.houseInstance.room_property;
     const personaData = locations.state.houseInstance.persona_data;
 
-    const url = 'http://localhost:3500/refresh_token'
-    const ws_url = 'ws://localhost:3500/chat?token=' + token
-    // const url = 'https://rest-dlg-server.herokuapp.com/refresh_token'
-    // const ws_url = 'wss://rest-dlg-server.herokuapp.com/chat?token=' + token
+    // const url = 'http://localhost:3500/refresh_token'
+    // const ws_url = 'ws://localhost:3500/chat?token=' + token
+    const url = 'https://rest-dlg-server.herokuapp.com/refresh_token'
+    const ws_url = 'wss://rest-dlg-server.herokuapp.com/chat?token=' + token
 
     const [messages, setMessages] = useState([]);
     const [inputValue, setInputValue] = useState('');

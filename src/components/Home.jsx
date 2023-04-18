@@ -3,8 +3,8 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
-    // const url = "https://rest-dlg-server.herokuapp.com/token"
-    const url = "http://localhost:3500/token"
+    const url = "https://rest-dlg-server.herokuapp.com/token"
+    // const url = "http://localhost:3500/token"
 
     const [houseInstance, setHouseInstance] = useState({});
     const [roomProperty, setRoomProperty] = useState({});
