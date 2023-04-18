@@ -8,15 +8,15 @@ export const Room = () => {
     const locations = useLocation();
 
     const token = params.id;
-    const room = locations.state.houseInstance.room;
-    const image = "../images/" + locations.state.houseInstance.img;
-    const jsonFile = "../properties/" + locations.state.houseInstance.houseId + ".json";
-    const [houseProperty, setHouseProperty] = useState({});
+    const room_id = locations.state.houseInstance.room_id;
+    const image = "../images/" + locations.state.houseInstance.img_file;
+    const houseProperty = locations.state.houseInstance.room_property;
+    const personaData = locations.state.houseInstance.persona_data;
 
-    // const url = 'http://localhost:3500/refresh_token'
-    // const ws_url = 'ws://localhost:3500/chat?token=' + token
-    const url = 'https://rest-dlg-server.herokuapp.com/refresh_token'
-    const ws_url = 'wss://rest-dlg-server.herokuapp.com/chat?token=' + token
+    const url = 'http://localhost:3500/refresh_token'
+    const ws_url = 'ws://localhost:3500/chat?token=' + token
+    // const url = 'https://rest-dlg-server.herokuapp.com/refresh_token'
+    // const ws_url = 'wss://rest-dlg-server.herokuapp.com/chat?token=' + token
 
     const [messages, setMessages] = useState([]);
     const [inputValue, setInputValue] = useState('');
@@ -35,16 +35,12 @@ export const Room = () => {
             } catch (error) {
                 console.error(error);
             }
-            // console.log(response);
+            console.log(response);
             // console.log(response.messages)
+            setCount(response.turns);
             setMessages(response.messages);
         };
 
-        fetch(`${jsonFile}`).then(res => res.json())
-            .then(res => {
-                setHouseProperty(res["Property Features"][room.charAt(0).toUpperCase() + room.slice(1).toLowerCase()])
-            }).catch(_ => { console.log(_); return _; });
-        // console.log(houseProperty)
 
         const ws = new WebSocket(ws_url);
         setWs(ws);
@@ -58,9 +54,10 @@ export const Room = () => {
 
         ws.onmessage = (event) => {
             let messageData = event.data;
-            messageData = messageData.replace(/'/g, '"');
-            // console.log(messageData);
+            // messageData = messageData.replace(/'/g, '"');
+            console.log(messageData);
             // res = "'" + res + "'";
+            // messageData = '"' + messageData + '"';
             messageData = JSON.parse(messageData);
             console.log("Message Recieved: " + messageData['msg'])
 
@@ -84,7 +81,7 @@ export const Room = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        if (!inputValue.trim() || count > 20) { // Check if input is empty or only whitespace
+        if (!inputValue.trim() || count > 10) { // Check if input is empty or only whitespace
             return;
         }
         const message = {
@@ -107,36 +104,98 @@ export const Room = () => {
         <div>
             <div className="content">
                 <div className='instruction-box'>
-                    <h2>{room.charAt(0).toUpperCase() + room.slice(1).toLowerCase()}</h2>
+                    <h1>{room_id.charAt(0).toUpperCase() + room_id.slice(1).toLowerCase()}</h1>
 
                     <div>
                         <img src={image} alt="jsx-a11y" />
                     </div>
 
-                    <h3>Features that you need to inform to a customer</h3>
+                    <h2>Features that you need to inform to a customer</h2>
                     <div className="content">
                         <ul>
                             <li>
                                 <strong> Dimensions (Sq. feet): </strong>
-                                {houseProperty["Dimensions (Sq. feet)"] ? houseProperty["Dimensions (Sq. feet)"] : "No Info."}
+                                {houseProperty["Dimensions (Sq. feet)"] ? houseProperty["Dimensions (Sq. feet)"] : "Provide an information"}
                             </li>
                             <li>
                                 <strong>Level: </strong>
-                                {houseProperty["Level"] ? houseProperty["Level"] : "No Info."}
+                                {houseProperty["Level"] ? houseProperty["Level"] : "Provide an information"}
                             </li>
                             <li>
                                 <strong>Description: </strong>
-                                {houseProperty["Description"] ? houseProperty["Description"] : "No Info."}
+                                {houseProperty["Description"] ? houseProperty["Description"] : "Provide an information"}
                             </li>
                             <li>
                                 <strong>Scenery: </strong>
-                                {houseProperty["Scenery"] ? houseProperty["Scenery"] : "No Info."}
+                                {houseProperty["Scenery"] ? houseProperty["Scenery"] : "Provide an information"}
+                            </li>
+                        </ul>
+                    </div>
+
+                    <h2>Customer's persona</h2>
+                    <div className="content">
+                        <ul>
+                            <li>
+                                <strong> Name: </strong>
+                                {personaData["name"]}
+                            </li>
+                            <li>
+                                <strong> Age: </strong>
+                                {personaData["age"]}
+                            </li>
+                            <li>
+                                <strong> Gender: </strong>
+                                {personaData["gender"]}
+                            </li>
+                            <li>
+                                <strong> Marital Status: </strong>
+                                {personaData["marital_status"]}
+                            </li>
+                            <li>
+                                <strong> Education: </strong>
+                                {personaData["education"]}
+                            </li>
+                            <li>
+                                <strong> Income: </strong>
+                                {personaData["income"]}
+                            </li>
+                            <li>
+                                <strong> Location: </strong>
+                                {personaData["location"]}
+                            </li>
+                            {/* <li>
+                                <strong> Channels: </strong>
+                                {personaData["channels"]}
+                            </li> */}
+                            <li>
+                                <strong> Tech: </strong>
+                                {personaData["tech"].map((data, index) => (
+                                    <div key={index} className="text ">
+                                        <div>{data}</div>
+                                    </div>
+                                ))}
+                            </li>
+                            <li>
+                                <strong> Dreams and Goals: </strong>
+                                {personaData["dreams_and_goals"].map((data, index) => (
+                                    <div key={index} className="text ">
+                                        <div>{data}</div>
+                                    </div>
+                                ))}
+                            </li>
+                            <li>
+                                <strong> Pain Points and Challenges: </strong>
+                                {personaData["pain_points_and_challenges"].map((data, index) => (
+                                    <div key={index} className="text ">
+                                        <div>{data}</div>
+                                    </div>
+                                ))}
                             </li>
                         </ul>
                     </div>
 
 
-                    {/* <center><h3>Features that the customer may ask you about </h3></center>
+                    {/* <center><h2>Features that the customer may ask you about </h2></center>
                     <div className="content">
                         <ol>
                             <li>Type of flooring: hardwood flooring</li>
@@ -147,7 +206,7 @@ export const Room = () => {
 
 
                 <div className="message-box">
-                    <h2>Chat History</h2>
+                    <h1>Chat History</h1>
 
                     <ReactScollableFeed>
                         <div className="messages">
@@ -196,7 +255,7 @@ export const Room = () => {
                 </div > */}
             </div>
             <div className="App-button">
-                {count < 20 ? <div>Turn No.: {count} ({20 - count} turns left.)</div> : <div>Please close the window.</div>}
+                {count < 10 ? <div>Turn No.: {count} ({10 - count} turns left.)</div> : <div>Please close the window.</div>}
             </div>
         </div >
     );

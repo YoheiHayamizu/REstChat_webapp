@@ -1,25 +1,72 @@
-import { React } from "react";
+import { React, useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
-    const url = "https://rest-dlg-server.herokuapp.com/token"
-    // const url = "http://localhost:3500/token"
+    // const url = "https://rest-dlg-server.herokuapp.com/token"
+    const url = "http://localhost:3500/token"
+
+    const [houseInstance, setHouseInstance] = useState({});
+    const [roomProperty, setRoomProperty] = useState({});
+    const [personaData, setPersonaData] = useState({});
+
+    const [count, setCount] = useState(0); //initial time count for loading
+
+    // const [refreshKey, setRefreshKey] = useState(0);
 
     const selectInstance = () => {
         // Randomlly select a house id
-        const houseIds = ["house001", "house002"]; //, "house003", "house004", "house005", "house006", "house007", "house008", "house009", "house010"];
-        const houseId = houseIds[Math.floor(Math.random() * houseIds.length)];
+        const house_ids = ["house001", "house002"]; //, "house003", "house004", "house005", "house006", "house007", "house008", "house009", "house010"];
+        const house_id = house_ids[Math.floor(Math.random() * house_ids.length)];
 
         // Randomlly select a room from the list of rooms
-        const rooms = ["livingroom", "kitchen", "bedroom", "bathroom", "balcony"]; //, "diningroom", "garden", "studyroom", "hallway", "garage", "basement", "attic"];
-        const room = rooms[Math.floor(Math.random() * rooms.length)];
+        const room_ids = ["livingroom", "kitchen", "bedroom", "bathroom", "balcony"]; //, "diningroom", "garden", "studyroom", "hallway", "garage", "basement", "attic"];
+        const room_id = room_ids[Math.floor(Math.random() * room_ids.length)];
 
-        return { houseId: houseId, room: room, img: houseId + "-" + room + ".png" };
+        // Randomlly select a persona from the list of personas
+        const persona_ids = ["persona001", "persona002", "persona003", "persona004", "persona005"] //, "persona006", "persona007", "persona008", "persona009", "persona010"];
+        const persona_id = persona_ids[Math.floor(Math.random() * persona_ids.length)];
+
+        const property_file = "../properties/" + house_id + ".json";
+        const persona_file = "../personas/" + persona_id + ".json";
+
+        fetch(`${property_file}`).then(res => res.json())
+            .then(res => {
+                // console.log(res);
+                setRoomProperty(res["Property Features"][room_id.charAt(0).toUpperCase() + room_id.slice(1).toLowerCase()]);
+            }).catch(_ => { console.log(_); return _; });
+
+        fetch(`${persona_file}`).then(res => res.json())
+            .then(res => {
+                // console.log(res);
+                setPersonaData(res);
+            }).catch(_ => { console.log(_); return _; });
+        // console.log(roomProperty)
+        // console.log(personaData)
+
+        return {
+            house_id: house_id,
+            room_id: room_id,
+            persona_id: persona_id,
+            img_file: house_id + "-" + room_id + ".png",
+            property_file: house_id + ".json",
+            persona_file: persona_id + ".json",
+            room_property: roomProperty,
+            persona_data: personaData,
+        };
     }
 
-    const fetchData = async () => {
-        return await axios.post(url, { withCredentials: true }).then(res => {
+    const fetchData = () => {
+        // setHouseInstance();
+        return axios.post(url, {
+            withCredentials: true,
+            "house_id": houseInstance.house_id,
+            "room_id": houseInstance.room_id,
+            "persona_id": houseInstance.persona_id,
+            "img_file": houseInstance.img_file,
+            "property": houseInstance.room_property,
+            "persona": houseInstance.persona_data,
+        }).then(res => {
             console.log(res.data);
             return res.data;
         });
@@ -27,11 +74,24 @@ export const Home = () => {
 
     let navigate = useNavigate();
     const Start = () => {
-        const houseInstance = selectInstance();
         fetchData().then((data) => {
             navigate("/room/" + data.token, { state: { data, houseInstance } });
         });
     }
+
+    useEffect(() => {
+        // setCount((count) => count + 1); //increment this Hook
+        // const updateCount = () => {
+        //     // let count = 0;
+        //     if (count < 100) {
+        //     }
+        // };
+        // updateCount();
+        setHouseInstance(selectInstance());
+        setHouseInstance(selectInstance());
+        setHouseInstance(selectInstance());
+        // console.log(houseInstance);
+    }, []);
 
     return (
         <div>
@@ -74,7 +134,8 @@ export const Home = () => {
             </div>
 
             <div>
-                <button className="App-button" onClick={Start}>Start</button>
+                <button className="App-button" onClick={Start}>{<div>Start</div>}</button>
+                {/* <button className="App-button" onClick={Start}>{count > 100 ? <div>Start</div> : <div>Loading</div>}</button> */}
             </div>
         </div>
     );

@@ -1,0 +1,29 @@
+{
+    "name": "Alex Lee",
+    "age": 28,
+    "gender": "Male",
+    "marital_status": "Single",
+    "education": "Bachelor's degree in computer science",
+    "income": "$70,000 per year",
+    "location": "Urban area",
+    "channels": [
+        "online real estate websites",
+        "social media",
+        "personal referrals"
+    ],
+    "tech": [
+        "smartphone",
+        "laptop",
+        "basic knowledge of real estate apps and software"
+    ],
+    "dreams_and_goals": [
+        "Buying his first home and achieving financial independence",
+        "Finding a home that fits his lifestyle and reflects his personal style",
+        "Building equity and investing in his future"
+    ],
+    "pain_points_and_challenges": [
+        "Navigating the home buying process for the first time and feeling overwhelmed by the options and information",
+        "Balancing his desire for a desirable location with his limited budget",
+        "Concerns about unexpected maintenance or repair costs"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "John Smith",
+    "age": 45,
+    "gender": "Male",
+    "marital_status": "Divorced with no children",
+    "education": "Associate's degree",
+    "income": "$60,000 per year",
+    "location": "Urban area",
+    "channels": [
+        "email",
+        "news websites",
+        "industry publications"
+    ],
+    "tech": [
+        "desktop computer",
+        "smartphone",
+        "basic knowledge of software and apps"
+    ],
+    "dreams_and_goals": [
+        "Investing in a rental property to generate passive income",
+        "Building a real estate portfolio for long-term financial security",
+        "Finding a home that fits his current lifestyle and future goals"
+    ],
+    "pain_points_and_challenges": [
+        "Limited budget and resources for investing in real estate",
+        "Lack of knowledge and experience in real estate investing",
+        "Difficulty finding a property that meets his criteria and fits his budget"
+    ],
+    "how_to_empower": [
+        "Provide information and resources on real estate investing strategies and options",
+        "Offer expertise and advice on identifying properties that fit his investment goals",
+        "Help John navigate the home buying process and negotiate a favorable deal",
+        "Offer property management services for any rental properties he may acquire"
+    ]
+}
