@@ -112,7 +112,7 @@ export const Home = () => {
         setHouseInstance(selectInstance());
         setHouseInstance(selectInstance());
         // console.log(houseInstance);
-    }, []);
+    }, [selectInstance(), houseInstance]);
 
     return (
         <div>
