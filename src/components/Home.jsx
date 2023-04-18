@@ -90,6 +90,9 @@ export const Home = () => {
         setHouseInstance(selectInstance());
         setHouseInstance(selectInstance());
         setHouseInstance(selectInstance());
+        setHouseInstance(selectInstance());
+        setHouseInstance(selectInstance());
+        setHouseInstance(selectInstance());
         // console.log(houseInstance);
     }, []);
 
