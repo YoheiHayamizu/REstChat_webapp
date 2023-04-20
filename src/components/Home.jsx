@@ -10,7 +10,6 @@ export const Home = () => {
     const [roomProperty, setRoomProperty] = useState({});
     const [personaData, setPersonaData] = useState({});
 
-    const [count, setCount] = useState(0); //initial time count for loading
 
     // const [refreshKey, setRefreshKey] = useState(0);
 
@@ -79,10 +78,19 @@ export const Home = () => {
         });
     }
 
+    const [count, setCount] = useState(0); //initial time count for loading
+
     useEffect(() => {
-        setHouseInstance(selectInstance());
-        // console.log(houseInstance);
-    }, [selectInstance(), houseInstance]);
+        if (personaData === {} || count < 100) {
+            // value = value + 1;
+            setCount(count + 1);
+            console.log(count);
+            setHouseInstance(selectInstance());
+        }
+        console.log(personaData);
+        // checkPersonaData();
+        console.log(houseInstance);
+    }, [count, personaData, houseInstance, selectInstance]);
 
     return (
         <div>
@@ -125,8 +133,8 @@ export const Home = () => {
             </div>
 
             <div>
-                <button className="App-button" onClick={Start}>{<div>Start</div>}</button>
-                {/* <button className="App-button" onClick={Start}>{count > 100 ? <div>Start</div> : <div>Loading</div>}</button> */}
+                {/* <button className="App-button" onClick={Start}>{<div>Start</div>}</button> */}
+                <button className="App-button" onClick={Start}>{count > 10 ? <div>Start</div> : <div>Loding {count} %</div>}</button>
             </div>
         </div>
     );
