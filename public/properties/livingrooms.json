@@ -1,0 +1,146 @@
+[
+    {
+        "Size (LxW Sq. feet)": "18x20 360",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Kitchen",
+            "Connected to a Balcony"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "22x18 396",
+        "Flooring": "Laminate",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Kitchen",
+            "Connected to a Patio"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "14x20 280",
+        "Flooring": "Carpet",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Kitchen",
+            "Connected to a Terrace"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "24x18 432",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Chandelier",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Kitchen",
+            "Connected to a Balcony"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "20x16 320",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Mountain or hills",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Kitchen",
+            "Connected to a Garden"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "15x20 300",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Chandelier",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Kitchen",
+            "Separate from Bedrooms"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "12x14 168",
+        "Flooring": "Carpet",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Dining Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "25x25 625",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Ceiling lights",
+            "Chandelier",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Courtyard",
+            "Separate from Bedrooms"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "18x22 396",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Mountains or hills",
+        "Room Relationship": [
+            "Adjacent to Yard",
+            "Separate from Bedrooms and Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "14x16 224",
+        "Flooring": "Laminate",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Separate from Bedrooms and Kitchen"
+        ]
+    }
+]

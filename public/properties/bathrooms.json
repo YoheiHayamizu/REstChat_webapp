@@ -1,0 +1,92 @@
+[
+    {
+        "Size (LxW Sq. feet)": "8x10 80",
+        "Flooring": "Tile",
+        "Lighting": "Wall sconces",
+        "View": "N/A",
+        "Room Relationship": [
+            "Connected to Master Bedroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "6x6 36",
+        "Flooring": "Stone",
+        "Lighting": "Ceiling lights",
+        "View": "N/A",
+        "Room Relationship": [
+            "Adjacent to Guest Bedroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "10x12 120",
+        "Flooring": "Tile",
+        "Lighting": "Natural lighting (from windows or skylights)",
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Connected to Bedroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "5x8 40",
+        "Flooring": "Stone",
+        "Lighting": "Ceiling lights",
+        "View": "N/A",
+        "Room Relationship": [
+            "Close to Bedroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "6x8 48",
+        "Flooring": "Tile",
+        "Lighting": "Natural lighting (from windows or skylights)",
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Connected to Master Bedroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "7x10 70",
+        "Flooring": "Stone",
+        "Lighting": "Ceiling lights",
+        "View": "N/A",
+        "Room Relationship": [
+            "Adjacent to Bedroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "8x12 96",
+        "Flooring": "Tile",
+        "Lighting": "Wall sconces",
+        "View": "N/A",
+        "Room Relationship": [
+            "Connected to Bedroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "6x8 48",
+        "Flooring": "Stone-tile",
+        "Lighting": "Natural lighting (from windows or skylights)",
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Adjacent to Living room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "5x7 35",
+        "Flooring": "Tile",
+        "Lighting": "Ceiling lights",
+        "View": "N/A",
+        "Room Relationship": [
+            "Close to Guest Bedroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "6x10 60",
+        "Flooring": "Stone",
+        "Lighting": "Wall sconces",
+        "View": "N/A",
+        "Room Relationship": [
+            "Connected to Bedroom"
+        ]
+    }
+]

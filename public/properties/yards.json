@@ -1,0 +1,100 @@
+[
+    {
+        "Size (LxW Sq. feet)": "15x40 600",
+        "Flooring": "N/A",
+        "Lighting": "N/A",
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Adjacent to Dining room",
+            "Adjacent to Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "30x50 1500",
+        "Flooring": "N/A",
+        "Lighting": "N/A",
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Living room",
+            "Adjacent to Bedroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "20x30 600",
+        "Flooring": "N/A",
+        "Lighting": "N/A",
+        "View": "Mountains or hills",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "40x50 2000",
+        "Flooring": "N/A",
+        "Lighting": "N/A",
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Living Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "15x25 375",
+        "Flooring": "N/A",
+        "Lighting": "N/A",
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Bedroom",
+            "Adjacent to Living Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "20x30 600",
+        "Flooring": "N/A",
+        "Lighting": "N/A",
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Dining Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "15x20 300",
+        "Flooring": "N/A",
+        "Lighting": "N/A",
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Adjacent to Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "25x25 625",
+        "Flooring": "N/A",
+        "Lighting": "N/A",
+        "View": "Mountain or hills",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Bedroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "10x15 150",
+        "Flooring": "N/A",
+        "Lighting": "N/A",
+        "View": "Street view",
+        "Room Relationship": [
+            "Adjacent to Living Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "20x40 800",
+        "Flooring": "N/A",
+        "Lighting": "N/A",
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Bedroom"
+        ]
+    }
+]

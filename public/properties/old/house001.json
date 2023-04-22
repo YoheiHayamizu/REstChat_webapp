@@ -4,31 +4,30 @@
             "Dimensions (Sq. feet)": "10 x 11",
             "Level": "First",
             "Description": "[Hardwood-Flooring, Ceiling Fan]",
-            "Scenery": ""
+            "Scenery": "Water view"
         },
         "Livingroom": {
             "Dimensions (Sq. feet)": "13 x 17",
             "Level": "First",
             "Description": "[Vinyl-Luxury-Flooring, Ceiling Fan, Sliding Glass Door]",
-            "Scenery": ""
+            "Scenery": "Nature view"
         },
         "Bathroom": {
             "Dimensions (Sq. feet)": "10 x 11",
             "Level": "First",
             "Description": "[Full Bath, Tile-Flooring]",
-            "Scenery": ""
         },
         "Kitchen": {
             "Dimensions (Sq. feet)": "9 x 16",
             "Level": "First",
             "Description": "[Granite Counter, Galley Kitchen, Vinyl-Luxury-Flooring]",
-            "Scenery": ""
+            "Scenery": "Garden view"
         },
         "Balcony": {
             "Dimensions (Sq. feet)": "",
             "Level": "First",
             "Description": "[Patio, Fully Fenced Yard]",
-            "Scenery": ""
+            "Scenery": "Sky view"
         }
     }
 }

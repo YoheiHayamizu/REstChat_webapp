@@ -1,0 +1,101 @@
+[
+    {
+        "Size (LxW Sq. feet)": "12x16 192",
+        "Flooring": "Hardwood",
+        "Lighting": "Pendant lights",
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Separated from Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "14x18 252",
+        "Flooring": "Stone-tile",
+        "Lighting": "Natural lighting (from windows or skylights)",
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Open to Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "15x20 300",
+        "Flooring": "Hardwood",
+        "Lighting": "Chandelier",
+        "View": "City view",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "12x12 144",
+        "Flooring": "Tile",
+        "Lighting": "Natural lighting (from windows or skylights)",
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "20x25 500",
+        "Flooring": "Stone",
+        "Lighting": "Wall sconces",
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "12x15 180",
+        "Flooring": "Laminate",
+        "Lighting": "Ceiling lights",
+        "View": "N/A",
+        "Room Relationship": [
+            "Adjacent to Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "15x18 270",
+        "Flooring": "Carpet",
+        "Lighting": "Pendant lights",
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "14x16 224",
+        "Flooring": "Hardwood",
+        "Lighting": "Chandelier",
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Close to Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "12x14 168",
+        "Flooring": "Stone",
+        "Lighting": "Ceiling lights",
+        "View": "N/A",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Kitchen"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "10x12 120",
+        "Flooring": "Tile",
+        "Lighting": "Pendant lights",
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Close to Kitchen"
+        ]
+    }
+]

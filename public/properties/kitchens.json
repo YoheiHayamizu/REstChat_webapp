@@ -1,0 +1,143 @@
+[
+    {
+        "Size (LxW Sq. feet)": "12x14 168",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Separate from Bedrooms and Living Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "10x12 120",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Dining Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "16x20 320",
+        "Flooring": "Stone-tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Mountain or hill view",
+        "Room Relationship": [
+            "Open to Dining Room",
+            "Adjacent to Living Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "14x16 224",
+        "Flooring": "Linoleum",
+        "Lighting": [
+            "Ceiling lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Dining Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "12x10 120",
+        "Flooring": "Carpet",
+        "Lighting": [
+            "Ceiling lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Living Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "16x12 192",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Adjacent to Dining Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "14x14 196",
+        "Flooring": "Laminate",
+        "Lighting": [
+            "Ceiling lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "N/A",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Dining Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "10x8 80",
+        "Flooring": "Vinyl",
+        "Lighting": [
+            "Ceiling lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "N/A",
+        "Room Relationship": [
+            "Adjacent to Living Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "18x16 288",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "N/A",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Living Room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "20x15 300",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Open to Dining Room"
+        ]
+    }
+]

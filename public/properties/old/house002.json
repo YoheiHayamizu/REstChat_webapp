@@ -1,0 +1,73 @@
+{
+    "Property Features": {
+        "Size Range": [
+            100,
+            900
+        ],
+        "Flooring": [
+            "Hardwood",
+            "Tile",
+            "Carpet",
+            "Laminate",
+            "Stone",
+            "Linoleum",
+            "Vinyl",
+            "Stone-tile"
+        ],
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Pendant lights",
+            "Chandelier",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "Views": [
+            "City view",
+            "Park or greenery",
+            "Courtyard or garden",
+            "Street view",
+            "Ocean or water views",
+            "Mountains or hills",
+            "River or lake view",
+            "Forest or woodland view",
+            "Sunrise or sunset view"
+        ],
+        "Bedroom": {
+            "Size (LxW Sq. feet)": "10x12 120",
+            "Flooring": "Wall-To-Wall Carpet",
+            "Lighting": "Ceiling Fan",
+            "View": "City View",
+            "Room Relationship": [
+                "Adjacent to Bathroom"
+            ]
+        },
+        "Livingroom": {
+            "Size (LxW Sq. feet)": "13*16 208",
+            "Flooring": "Wall-To-Wall Carpet",
+            "Lighting": "Ceiling Fan",
+            "View": "City View",
+            "Room Relationship": [
+                "Adjacent to Kitchen",
+                "Adjacent to Dining Room"
+            ],
+        },
+        "Bathroom": {
+            "Size (LxW Sq. feet)": "10x11 110",
+            "Level": "First",
+            "Description": "[Full Bath, Tile-Flooring]",
+            "Scenery": ""
+        },
+        "Kitchen": {
+            "Size (LxW Sq. feet)": "11x12 132",
+            "Level": "First",
+            "Description": "[Granite Counter, L-Shaped Kitchen, Tile-Flooring]",
+            "Scenery": ""
+        },
+        "Balcony": {
+            "Size (LxW Sq. feet)": "434",
+            "Level": "First",
+            "Description": "[Patio, Fully Fenced Yard]",
+            "Scenery": ""
+        }
+    }
+}

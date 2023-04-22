@@ -1,0 +1,126 @@
+[
+    {
+        "Size (LxW Sq. feet)": "12x14 168",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "16x20 320",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "14x12 168",
+        "Flooring": "Laminate",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights"
+        ],
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "12x10 120",
+        "Flooring": "Carpet",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "20x18 360",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Ceiling lights",
+            "Chandelier"
+        ],
+        "View": "Mountains or hills",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "16x14 224",
+        "Flooring": "Vinyl",
+        "Lighting": [
+            "Ceiling lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Sunrise or sunset view",
+        "Room Relationship": [
+            "Adjacent to Living room"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "12x10 120",
+        "Flooring": "Carpet",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "18x14 252",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "16x12 192",
+        "Flooring": "Stone-tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Chandelier"
+        ],
+        "View": "River or lake view",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ]
+    },
+    {
+        "Size (LxW Sq. feet)": "20x18 360",
+        "Flooring": "Laminate",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Mountains or hills",
+        "Room Relationship": [
+            "Adjacent to Living room"
+        ]
+    }
+]
