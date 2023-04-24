@@ -19,7 +19,7 @@ class ChatPage extends React.Component {
     connectWs = () => {
         const { token, session } = this.props;
         // this.ws = new WebSocket('ws://localhost:3500/chat?token=' + token);
-        this.ws = new WebSocket('wss://rest-dlg-server.herokuapp.com/chat?token=' + props.token);
+        this.ws = new WebSocket('wss://rest-dlg-server.herokuapp.com/chat?token=' + token);
     }
 
     restoreData = async () => {
