@@ -6,8 +6,8 @@ import "./App.css";
 // import { Home } from "./components/Home";
 // import { Room } from "./components/Room";
 // import { Page404 } from "./components/Page404";
-import HomePage from "/app/rest_chat/src/components/HomePage";
-import ChatPage from "/app/rest_chat/src/components/ChatPage";
+import HomePage from "./components/HomePage";
+import ChatPage from "./components/ChatPage";
 
 
 class App extends Component {
