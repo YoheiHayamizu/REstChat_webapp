@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "Size (LxW Sq. feet)": "15x40 600",
         "Flooring": "N/A",
         "Lighting": "N/A",
@@ -10,6 +11,7 @@
         ]
     },
     {
+        "id": "2",
         "Size (LxW Sq. feet)": "30x50 1500",
         "Flooring": "N/A",
         "Lighting": "N/A",
@@ -20,6 +22,7 @@
         ]
     },
     {
+        "id": "3",
         "Size (LxW Sq. feet)": "20x30 600",
         "Flooring": "N/A",
         "Lighting": "N/A",
@@ -30,6 +33,7 @@
         ]
     },
     {
+        "id": "4",
         "Size (LxW Sq. feet)": "40x50 2000",
         "Flooring": "N/A",
         "Lighting": "N/A",
@@ -40,6 +44,7 @@
         ]
     },
     {
+        "id": "5",
         "Size (LxW Sq. feet)": "15x25 375",
         "Flooring": "N/A",
         "Lighting": "N/A",
@@ -50,6 +55,7 @@
         ]
     },
     {
+        "id": "6",
         "Size (LxW Sq. feet)": "20x30 600",
         "Flooring": "N/A",
         "Lighting": "N/A",
@@ -60,6 +66,7 @@
         ]
     },
     {
+        "id": "7",
         "Size (LxW Sq. feet)": "15x20 300",
         "Flooring": "N/A",
         "Lighting": "N/A",
@@ -69,6 +76,7 @@
         ]
     },
     {
+        "id": "8",
         "Size (LxW Sq. feet)": "25x25 625",
         "Flooring": "N/A",
         "Lighting": "N/A",
@@ -79,6 +87,7 @@
         ]
     },
     {
+        "id": "9",
         "Size (LxW Sq. feet)": "10x15 150",
         "Flooring": "N/A",
         "Lighting": "N/A",
@@ -88,6 +97,7 @@
         ]
     },
     {
+        "id": "10",
         "Size (LxW Sq. feet)": "20x40 800",
         "Flooring": "N/A",
         "Lighting": "N/A",

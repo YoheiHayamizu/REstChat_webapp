@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "Size (LxW Sq. feet)": "8x10 80",
         "Flooring": "Tile",
         "Lighting": "Wall sconces",
@@ -9,6 +10,7 @@
         ]
     },
     {
+        "id": "2",
         "Size (LxW Sq. feet)": "6x6 36",
         "Flooring": "Stone",
         "Lighting": "Ceiling lights",
@@ -18,6 +20,7 @@
         ]
     },
     {
+        "id": "3",
         "Size (LxW Sq. feet)": "10x12 120",
         "Flooring": "Tile",
         "Lighting": "Natural lighting (from windows or skylights)",
@@ -27,6 +30,7 @@
         ]
     },
     {
+        "id": "4",
         "Size (LxW Sq. feet)": "5x8 40",
         "Flooring": "Stone",
         "Lighting": "Ceiling lights",
@@ -36,6 +40,7 @@
         ]
     },
     {
+        "id": "5",
         "Size (LxW Sq. feet)": "6x8 48",
         "Flooring": "Tile",
         "Lighting": "Natural lighting (from windows or skylights)",
@@ -45,6 +50,7 @@
         ]
     },
     {
+        "id": "6",
         "Size (LxW Sq. feet)": "7x10 70",
         "Flooring": "Stone",
         "Lighting": "Ceiling lights",
@@ -54,6 +60,7 @@
         ]
     },
     {
+        "id": "7",
         "Size (LxW Sq. feet)": "8x12 96",
         "Flooring": "Tile",
         "Lighting": "Wall sconces",
@@ -63,6 +70,7 @@
         ]
     },
     {
+        "id": "8",
         "Size (LxW Sq. feet)": "6x8 48",
         "Flooring": "Stone-tile",
         "Lighting": "Natural lighting (from windows or skylights)",
@@ -72,6 +80,7 @@
         ]
     },
     {
+        "id": "9",
         "Size (LxW Sq. feet)": "5x7 35",
         "Flooring": "Tile",
         "Lighting": "Ceiling lights",
@@ -81,6 +90,7 @@
         ]
     },
     {
+        "id": "10",
         "Size (LxW Sq. feet)": "6x10 60",
         "Flooring": "Stone",
         "Lighting": "Wall sconces",

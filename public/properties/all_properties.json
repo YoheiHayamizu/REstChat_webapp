@@ -1,0 +1,878 @@
+[
+    {
+        "Size (LxW Sq. feet)": "12x14 168",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ],
+        "name": "bedroom",
+        "id": "000"
+    },
+    {
+        "Size (LxW Sq. feet)": "16x20 320",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ],
+        "name": "bedroom",
+        "id": "001"
+    },
+    {
+        "Size (LxW Sq. feet)": "14x12 168",
+        "Flooring": "Laminate",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights"
+        ],
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ],
+        "name": "bedroom",
+        "id": "002"
+    },
+    {
+        "Size (LxW Sq. feet)": "12x10 120",
+        "Flooring": "Carpet",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ],
+        "name": "bedroom",
+        "id": "003"
+    },
+    {
+        "Size (LxW Sq. feet)": "20x18 360",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Ceiling lights",
+            "Chandelier"
+        ],
+        "View": "Mountains or hills",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ],
+        "name": "bedroom",
+        "id": "004"
+    },
+    {
+        "Size (LxW Sq. feet)": "16x14 224",
+        "Flooring": "Vinyl",
+        "Lighting": [
+            "Ceiling lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Sunrise or sunset view",
+        "Room Relationship": [
+            "Adjacent to Living room"
+        ],
+        "name": "bedroom",
+        "id": "005"
+    },
+    {
+        "Size (LxW Sq. feet)": "12x10 120",
+        "Flooring": "Carpet",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ],
+        "name": "bedroom",
+        "id": "006"
+    },
+    {
+        "Size (LxW Sq. feet)": "18x14 252",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ],
+        "name": "bedroom",
+        "id": "007"
+    },
+    {
+        "Size (LxW Sq. feet)": "16x12 192",
+        "Flooring": "Stone-tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Chandelier"
+        ],
+        "View": "River or lake view",
+        "Room Relationship": [
+            "Adjacent to Bathroom"
+        ],
+        "name": "bedroom",
+        "id": "008"
+    },
+    {
+        "Size (LxW Sq. feet)": "20x18 360",
+        "Flooring": "Laminate",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Mountains or hills",
+        "Room Relationship": [
+            "Adjacent to Living room"
+        ],
+        "name": "bedroom",
+        "id": "009"
+    },
+    {
+        "Size (LxW Sq. feet)": "8x10 80",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Wall sconces"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Connected to Master Bedroom"
+        ],
+        "name": "bathroom",
+        "id": "010"
+    },
+    {
+        "Size (LxW Sq. feet)": "6x6 36",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Ceiling lights"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Adjacent to Guest Bedroom"
+        ],
+        "name": "bathroom",
+        "id": "011"
+    },
+    {
+        "Size (LxW Sq. feet)": "10x12 120",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Connected to Bedroom"
+        ],
+        "name": "bathroom",
+        "id": "012"
+    },
+    {
+        "Size (LxW Sq. feet)": "5x8 40",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Ceiling lights"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Close to Bedroom"
+        ],
+        "name": "bathroom",
+        "id": "013"
+    },
+    {
+        "Size (LxW Sq. feet)": "6x8 48",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Connected to Master Bedroom"
+        ],
+        "name": "bathroom",
+        "id": "014"
+    },
+    {
+        "Size (LxW Sq. feet)": "7x10 70",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Ceiling lights"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Adjacent to Bedroom"
+        ],
+        "name": "bathroom",
+        "id": "015"
+    },
+    {
+        "Size (LxW Sq. feet)": "8x12 96",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Wall sconces"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Connected to Bedroom"
+        ],
+        "name": "bathroom",
+        "id": "016"
+    },
+    {
+        "Size (LxW Sq. feet)": "6x8 48",
+        "Flooring": "Stone-tile",
+        "Lighting": [
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Adjacent to Living room"
+        ],
+        "name": "bathroom",
+        "id": "017"
+    },
+    {
+        "Size (LxW Sq. feet)": "5x7 35",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Ceiling lights"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Close to Guest Bedroom"
+        ],
+        "name": "bathroom",
+        "id": "018"
+    },
+    {
+        "Size (LxW Sq. feet)": "6x10 60",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Wall sconces"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Connected to Bedroom"
+        ],
+        "name": "bathroom",
+        "id": "019"
+    },
+    {
+        "Size (LxW Sq. feet)": "18x20 360",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Kitchen",
+            "Connected to a Balcony"
+        ],
+        "name": "livingroom",
+        "id": "020"
+    },
+    {
+        "Size (LxW Sq. feet)": "22x18 396",
+        "Flooring": "Laminate",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Kitchen",
+            "Connected to a Patio"
+        ],
+        "name": "livingroom",
+        "id": "021"
+    },
+    {
+        "Size (LxW Sq. feet)": "14x20 280",
+        "Flooring": "Carpet",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Kitchen",
+            "Connected to a Terrace"
+        ],
+        "name": "livingroom",
+        "id": "022"
+    },
+    {
+        "Size (LxW Sq. feet)": "24x18 432",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Chandelier",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Kitchen",
+            "Connected to a Balcony"
+        ],
+        "name": "livingroom",
+        "id": "023"
+    },
+    {
+        "Size (LxW Sq. feet)": "20x16 320",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Mountain or hills",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Kitchen",
+            "Connected to a Garden"
+        ],
+        "name": "livingroom",
+        "id": "024"
+    },
+    {
+        "Size (LxW Sq. feet)": "15x20 300",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Chandelier",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Kitchen",
+            "Separate from Bedrooms"
+        ],
+        "name": "livingroom",
+        "id": "025"
+    },
+    {
+        "Size (LxW Sq. feet)": "12x14 168",
+        "Flooring": "Carpet",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Dining Room"
+        ],
+        "name": "livingroom",
+        "id": "026"
+    },
+    {
+        "Size (LxW Sq. feet)": "25x25 625",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Ceiling lights",
+            "Chandelier",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Courtyard",
+            "Separate from Bedrooms"
+        ],
+        "name": "livingroom",
+        "id": "027"
+    },
+    {
+        "Size (LxW Sq. feet)": "18x22 396",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Mountains or hills",
+        "Room Relationship": [
+            "Adjacent to Yard",
+            "Separate from Bedrooms and Kitchen"
+        ],
+        "name": "livingroom",
+        "id": "028"
+    },
+    {
+        "Size (LxW Sq. feet)": "14x16 224",
+        "Flooring": "Laminate",
+        "Lighting": [
+            "Ceiling lights",
+            "Wall sconces",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Separate from Bedrooms and Kitchen"
+        ],
+        "name": "livingroom",
+        "id": "029"
+    },
+    {
+        "Size (LxW Sq. feet)": "12x14 168",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Separate from Bedrooms and Living Room"
+        ],
+        "name": "kitchen",
+        "id": "030"
+    },
+    {
+        "Size (LxW Sq. feet)": "10x12 120",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Dining Room"
+        ],
+        "name": "kitchen",
+        "id": "031"
+    },
+    {
+        "Size (LxW Sq. feet)": "16x20 320",
+        "Flooring": "Stone-tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Mountain or hill view",
+        "Room Relationship": [
+            "Open to Dining Room",
+            "Adjacent to Living Room"
+        ],
+        "name": "kitchen",
+        "id": "032"
+    },
+    {
+        "Size (LxW Sq. feet)": "14x16 224",
+        "Flooring": "Linoleum",
+        "Lighting": [
+            "Ceiling lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Dining Room"
+        ],
+        "name": "kitchen",
+        "id": "033"
+    },
+    {
+        "Size (LxW Sq. feet)": "12x10 120",
+        "Flooring": "Carpet",
+        "Lighting": [
+            "Ceiling lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Living Room"
+        ],
+        "name": "kitchen",
+        "id": "034"
+    },
+    {
+        "Size (LxW Sq. feet)": "16x12 192",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Adjacent to Dining Room"
+        ],
+        "name": "kitchen",
+        "id": "035"
+    },
+    {
+        "Size (LxW Sq. feet)": "14x14 196",
+        "Flooring": "Laminate",
+        "Lighting": [
+            "Ceiling lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Dining Room"
+        ],
+        "name": "kitchen",
+        "id": "036"
+    },
+    {
+        "Size (LxW Sq. feet)": "10x8 80",
+        "Flooring": "Vinyl",
+        "Lighting": [
+            "Ceiling lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Adjacent to Living Room"
+        ],
+        "name": "kitchen",
+        "id": "037"
+    },
+    {
+        "Size (LxW Sq. feet)": "18x16 288",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Living Room"
+        ],
+        "name": "kitchen",
+        "id": "038"
+    },
+    {
+        "Size (LxW Sq. feet)": "20x15 300",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Ceiling lights",
+            "Pendant lights",
+            "Under-cabinet lights",
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Open to Dining Room"
+        ],
+        "name": "kitchen",
+        "id": "039"
+    },
+    {
+        "Size (LxW Sq. feet)": "12x16 192",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Pendant lights"
+        ],
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Separated from Kitchen"
+        ],
+        "name": "diningroom",
+        "id": "040"
+    },
+    {
+        "Size (LxW Sq. feet)": "14x18 252",
+        "Flooring": "Stone-tile",
+        "Lighting": [
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Open to Kitchen"
+        ],
+        "name": "diningroom",
+        "id": "041"
+    },
+    {
+        "Size (LxW Sq. feet)": "15x20 300",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Chandelier"
+        ],
+        "View": "City view",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Kitchen"
+        ],
+        "name": "diningroom",
+        "id": "042"
+    },
+    {
+        "Size (LxW Sq. feet)": "12x12 144",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Natural lighting (from windows or skylights)"
+        ],
+        "View": "Courtyard or garden",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Kitchen"
+        ],
+        "name": "diningroom",
+        "id": "043"
+    },
+    {
+        "Size (LxW Sq. feet)": "20x25 500",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Wall sconces"
+        ],
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Kitchen"
+        ],
+        "name": "diningroom",
+        "id": "044"
+    },
+    {
+        "Size (LxW Sq. feet)": "12x15 180",
+        "Flooring": "Laminate",
+        "Lighting": [
+            "Ceiling lights"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Adjacent to Kitchen"
+        ],
+        "name": "diningroom",
+        "id": "045"
+    },
+    {
+        "Size (LxW Sq. feet)": "15x18 270",
+        "Flooring": "Carpet",
+        "Lighting": [
+            "Pendant lights"
+        ],
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Open to Living Room",
+            "Adjacent to Kitchen"
+        ],
+        "name": "diningroom",
+        "id": "046"
+    },
+    {
+        "Size (LxW Sq. feet)": "14x16 224",
+        "Flooring": "Hardwood",
+        "Lighting": [
+            "Chandelier"
+        ],
+        "View": "City view",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Close to Kitchen"
+        ],
+        "name": "diningroom",
+        "id": "047"
+    },
+    {
+        "Size (LxW Sq. feet)": "12x14 168",
+        "Flooring": "Stone",
+        "Lighting": [
+            "Ceiling lights"
+        ],
+        "View": "N\/A",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Kitchen"
+        ],
+        "name": "diningroom",
+        "id": "048"
+    },
+    {
+        "Size (LxW Sq. feet)": "10x12 120",
+        "Flooring": "Tile",
+        "Lighting": [
+            "Pendant lights"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Close to Kitchen"
+        ],
+        "name": "diningroom",
+        "id": "049"
+    },
+    {
+        "Size (LxW Sq. feet)": "15x40 600",
+        "Flooring": "N\/A",
+        "Lighting": [
+            "N\/A"
+        ],
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Adjacent to Dining room",
+            "Adjacent to Kitchen"
+        ],
+        "name": "yard",
+        "id": "050"
+    },
+    {
+        "Size (LxW Sq. feet)": "30x50 1500",
+        "Flooring": "N\/A",
+        "Lighting": [
+            "N\/A"
+        ],
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Living room",
+            "Adjacent to Bedroom"
+        ],
+        "name": "yard",
+        "id": "051"
+    },
+    {
+        "Size (LxW Sq. feet)": "20x30 600",
+        "Flooring": "N\/A",
+        "Lighting": [
+            "N\/A"
+        ],
+        "View": "Mountains or hills",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Kitchen"
+        ],
+        "name": "yard",
+        "id": "052"
+    },
+    {
+        "Size (LxW Sq. feet)": "40x50 2000",
+        "Flooring": "N\/A",
+        "Lighting": [
+            "N\/A"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Dining Room",
+            "Adjacent to Living Room"
+        ],
+        "name": "yard",
+        "id": "053"
+    },
+    {
+        "Size (LxW Sq. feet)": "15x25 375",
+        "Flooring": "N\/A",
+        "Lighting": [
+            "N\/A"
+        ],
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Bedroom",
+            "Adjacent to Living Room"
+        ],
+        "name": "yard",
+        "id": "054"
+    },
+    {
+        "Size (LxW Sq. feet)": "20x30 600",
+        "Flooring": "N\/A",
+        "Lighting": [
+            "N\/A"
+        ],
+        "View": "Park or greenery",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Dining Room"
+        ],
+        "name": "yard",
+        "id": "055"
+    },
+    {
+        "Size (LxW Sq. feet)": "15x20 300",
+        "Flooring": "N\/A",
+        "Lighting": [
+            "N\/A"
+        ],
+        "View": "Forest or woodland view",
+        "Room Relationship": [
+            "Adjacent to Kitchen"
+        ],
+        "name": "yard",
+        "id": "056"
+    },
+    {
+        "Size (LxW Sq. feet)": "25x25 625",
+        "Flooring": "N\/A",
+        "Lighting": [
+            "N\/A"
+        ],
+        "View": "Mountain or hills",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Bedroom"
+        ],
+        "name": "yard",
+        "id": "057"
+    },
+    {
+        "Size (LxW Sq. feet)": "10x15 150",
+        "Flooring": "N\/A",
+        "Lighting": [
+            "N\/A"
+        ],
+        "View": "Street view",
+        "Room Relationship": [
+            "Adjacent to Living Room"
+        ],
+        "name": "yard",
+        "id": "058"
+    },
+    {
+        "Size (LxW Sq. feet)": "20x40 800",
+        "Flooring": "N\/A",
+        "Lighting": [
+            "N\/A"
+        ],
+        "View": "Ocean or water views",
+        "Room Relationship": [
+            "Adjacent to Living Room",
+            "Adjacent to Bedroom"
+        ],
+        "name": "yard",
+        "id": "059"
+    }
+]
