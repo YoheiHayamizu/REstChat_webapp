@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "Size (LxW Sq. feet)": "12x14 168",
         "Flooring": "Tile",
         "Lighting": [
@@ -15,6 +16,7 @@
         ]
     },
     {
+        "id": "2",
         "Size (LxW Sq. feet)": "10x12 120",
         "Flooring": "Hardwood",
         "Lighting": [
@@ -29,6 +31,7 @@
         ]
     },
     {
+        "id": "3",
         "Size (LxW Sq. feet)": "16x20 320",
         "Flooring": "Stone-tile",
         "Lighting": [
@@ -44,6 +47,7 @@
         ]
     },
     {
+        "id": "4",
         "Size (LxW Sq. feet)": "14x16 224",
         "Flooring": "Linoleum",
         "Lighting": [
@@ -58,6 +62,7 @@
         ]
     },
     {
+        "id": "5",
         "Size (LxW Sq. feet)": "12x10 120",
         "Flooring": "Carpet",
         "Lighting": [
@@ -71,6 +76,7 @@
         ]
     },
     {
+        "id": "6",
         "Size (LxW Sq. feet)": "16x12 192",
         "Flooring": "Tile",
         "Lighting": [
@@ -85,6 +91,7 @@
         ]
     },
     {
+        "id": "7",
         "Size (LxW Sq. feet)": "14x14 196",
         "Flooring": "Laminate",
         "Lighting": [
@@ -99,6 +106,7 @@
         ]
     },
     {
+        "id": "8",
         "Size (LxW Sq. feet)": "10x8 80",
         "Flooring": "Vinyl",
         "Lighting": [
@@ -112,6 +120,7 @@
         ]
     },
     {
+        "id": "9",
         "Size (LxW Sq. feet)": "18x16 288",
         "Flooring": "Hardwood",
         "Lighting": [
@@ -127,6 +136,7 @@
         ]
     },
     {
+        "id": "10",
         "Size (LxW Sq. feet)": "20x15 300",
         "Flooring": "Hardwood",
         "Lighting": [
