@@ -38,7 +38,7 @@ class ChatPage extends React.Component {
         // console.log(response.messages)
         this.setState({
             messages: response.messages,
-            turn: response.turns,
+            turn: response.message_counts,
         });
     };
 
@@ -68,8 +68,7 @@ class ChatPage extends React.Component {
 
         const message = {
             role: data['role'],
-            msg: data['msg'],
-            timestamp: data['timestamp']
+            msg: data['msg']
         }
         this.setState((prevState) => ({
             messages: [...prevState.messages, message],
@@ -94,8 +93,7 @@ class ChatPage extends React.Component {
 
         const message = {
             role: 'Dealer',
-            msg: this.state.input,
-            timestamp: new Date().toISOString()
+            msg: this.state.input
         }
 
         this.ws.send(this.state.input);
