@@ -102,7 +102,7 @@ class HomePage extends React.Component {
                             The provided instructions will specify which features to communicate, such as "size of the living room" or "view from the room," 
                             along with the customer's persona. 
                             <b> 
-                            Your objective is to effectively convey the room's attributes to satisfy the customer's preferences wwithin the constraints of the given instructions. 
+                            Your objective is to effectively convey the room's attributes to satisfy the customer's preferences within the constraints of the given instructions. 
                             You can make the customer envision a scenario where the customer enjoys living in this property. 
                             </b>  
                             It is important to refrain from providing information beyond the given instructions, such as "location of the property." 
