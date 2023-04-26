@@ -168,7 +168,7 @@ class ChatPage extends React.Component {
                                     {personaData["age"]}
                                 </li>
                                 <li>
-                                    <strong> Gender: </strong>
+                                    <strong> Pronoun: </strong>
                                     {personaData["gender"]}
                                 </li>
                                 <li>
