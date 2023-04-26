@@ -21,7 +21,7 @@ class ChatPage extends React.Component {
     }
 
     connectWs = () => {
-        const { token, session } = this.props;
+        const { token } = this.props;
         // this.ws = new WebSocket(this.state.ws_url + token);
         this.ws = new WebSocket(this.state.ws_url + token);
     }
