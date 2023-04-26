@@ -150,7 +150,7 @@ class ChatPage extends React.Component {
                                     {roomProperty["View"]}
                                 </li>
                                 <li>
-                                    <strong>Room Relationship: </strong>
+                                    <strong>Adjacent Rooms: </strong>
                                     {roomProperty["Room Relationship"].map((data, index) => (
                                         <div key={index} className="text ">
                                             <div>{data}</div>
@@ -168,7 +168,7 @@ class ChatPage extends React.Component {
                                     {personaData["age"]}
                                 </li>
                                 <li>
-                                    <strong> Pronoun: </strong>
+                                    <strong> Pronouns: </strong>
                                     {personaData["gender"]}
                                 </li>
                                 <li>

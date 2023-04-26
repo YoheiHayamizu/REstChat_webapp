@@ -1,7 +1,7 @@
 [
     {
         "age": 32,
-        "gender": "she\/her\/her",
+        "gender": "she\/her\/hers",
         "education": "Bachelor's degree",
         "marital_status": "Married with two children",
         "job": "Marketing Manager",
@@ -14,7 +14,7 @@
     },
     {
         "age": 27,
-        "gender": "they\/their\/their",
+        "gender": "they\/them\/theirs",
         "education": "Associate's degree",
         "marital_status": "Single",
         "job": "Software Developer",
@@ -27,7 +27,7 @@
     },
     {
         "age": 45,
-        "gender": "he\/his\/him",
+        "gender": "he\/him\/his",
         "education": "Master's degree",
         "marital_status": "Married with no children",
         "job": "CEO",
@@ -40,7 +40,7 @@
     },
     {
         "age": 29,
-        "gender": "he\/his\/him",
+        "gender": "he\/him\/his",
         "education": "High School Diploma",
         "marital_status": "Single",
         "job": "Delivery Driver",
@@ -53,7 +53,7 @@
     },
     {
         "age": 38,
-        "gender": "she\/her\/her",
+        "gender": "she\/her\/hers",
         "education": "Master's degree",
         "marital_status": "Divorced with one child",
         "job": "Attorney",
@@ -66,7 +66,7 @@
     },
     {
         "age": 56,
-        "gender": "he\/his\/him",
+        "gender": "he\/him\/his",
         "education": "PhD",
         "marital_status": "Married with grown children",
         "job": "College Professor",
@@ -79,7 +79,7 @@
     },
     {
         "age": 42,
-        "gender": "she\/her\/her",
+        "gender": "she\/her\/hers",
         "education": "Doctorate degree",
         "marital_status": "Married with three children",
         "job": "Surgeon",
@@ -92,7 +92,7 @@
     },
     {
         "age": 31,
-        "gender": "they\/their\/their",
+        "gender": "they\/them\/theirs",
         "education": "Master's degree",
         "marital_status": "Single",
         "job": "Graphic Designer",
@@ -105,7 +105,7 @@
     },
     {
         "age": 49,
-        "gender": "she\/her\/her",
+        "gender": "she\/her\/hers",
         "education": "Bachelor's degree",
         "marital_status": "Married with two children",
         "job": "Teacher",
@@ -118,7 +118,7 @@
     },
     {
         "age": 57,
-        "gender": "he\/his\/him",
+        "gender": "he\/him\/his",
         "education": "High school diploma",
         "marital_status": "Divorced with grown children",
         "job": "Construction Worker",
