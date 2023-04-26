@@ -13,21 +13,23 @@ class ChatPage extends React.Component {
             ws: null,
             turn: 0,
             conversationEnded: false,
+            // url: 'http://localhost:3500/refresh_token',
+            url: 'https://rest-dlg-server.herokuapp.com/refresh_token',
+            // ws_url: 'ws://localhost:3500/chat?token=',
+            ws_url: 'wss://rest-dlg-server.herokuapp.com/chat?token='
         };
     }
 
     connectWs = () => {
         const { token, session } = this.props;
-        // this.ws = new WebSocket('ws://localhost:3500/chat?token=' + token);
-        this.ws = new WebSocket('wss://rest-dlg-server.herokuapp.com/chat?token=' + token);
+        // this.ws = new WebSocket(this.state.ws_url + token);
+        this.ws = new WebSocket(this.state.ws_url + token);
     }
 
     restoreData = async () => {
         let response = null;
-        // const url = 'http://localhost:3500/refresh_token'
-        const url = 'https://rest-dlg-server.herokuapp.com/refresh_token'
         try {
-            response = await axios.post(url, { withCredentials: true, "token": this.props.token }).then((res) => {
+            response = await axios.post(this.state.url, { withCredentials: true, "token": this.props.token }).then((res) => {
                 const data = res.data;
                 return data
             });
@@ -55,6 +57,15 @@ class ChatPage extends React.Component {
         };
 
         this.ws.onmessage = this.handleMessage;
+
+
+        const flexTextarea = (el) => {
+            const dummy = el.querySelector('.FlexTextarea__dummy');
+            el.querySelector('.FlexTextarea__textarea').addEventListener('input', (e) => {
+                dummy.textContent = e.target.value + '\u200b';
+            });
+        };
+        document.querySelectorAll('.FlexTextarea').forEach(flexTextarea);
     }
 
     componentWillUnmount() {
@@ -113,8 +124,9 @@ class ChatPage extends React.Component {
             <div>
                 <div className="content">
                     <div className='instruction-box'>
-                        <h1>{roomName}</h1>
-                        <h2>Features that you need to inform to a customer</h2>
+                        <h1>{roomName.charAt(0).toUpperCase() + roomName.slice(1).toLowerCase()}</h1>
+                        <br />
+                        <h2>Features that you need to inform</h2>
                         <div className="content">
                             <ul>
                                 <li>
@@ -160,6 +172,10 @@ class ChatPage extends React.Component {
                                     {personaData["gender"]}
                                 </li>
                                 <li>
+                                    <strong> Job: </strong>
+                                    {personaData["job"]}
+                                </li>
+                                <li>
                                     <strong> Marital Status: </strong>
                                     {personaData["marital_status"]}
                                 </li>
@@ -168,12 +184,13 @@ class ChatPage extends React.Component {
                                     {personaData["education"]}
                                 </li>
                                 <li>
-                                    <strong> Income: </strong>
-                                    {personaData["income"]}
-                                </li>
-                                <li>
-                                    <strong> Location: </strong>
-                                    {personaData["location"]}
+                                    <strong>Hobbies: </strong>
+                                    {/* {personaData["hobbies"]} */}
+                                    {personaData["hobbies"].map((data, index) => (
+                                        <div key={index} className="text ">
+                                            <div>{data}</div>
+                                        </div>
+                                    ))}
                                 </li>
                             </ul>
                         </div>
@@ -195,14 +212,25 @@ class ChatPage extends React.Component {
                         </ReactScollableFeed>
 
                         <form onSubmit={this.handleInputSubmit} className="inputs">
-                            <input
+                            {/* <input
                                 type="text"
                                 id="message"
                                 value={input}
                                 onChange={this.handleInputChange}
                                 placeholder="Type your message here"
-                            />
+                            /> */}
                             <button type="submit">Send</button>
+                            <div className="FlexTextarea">
+                                <div className="FlexTextarea__dummy" aria-hidden="true"></div>
+                                <textarea
+                                    id="FlexTextarea"
+                                    type="text"
+                                    className="FlexTextarea__textarea"
+                                    value={input}
+                                    onChange={this.handleInputChange}
+                                    placeholder="Type your message here">
+                                </textarea>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -218,3 +246,4 @@ class ChatPage extends React.Component {
 }
 
 export default ChatPage;
+
