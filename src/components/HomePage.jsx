@@ -91,23 +91,25 @@ class HomePage extends React.Component {
                         <div className='Home-body'>
                             <h1>INSTRUCTIONS</h1>
                             <p>
-                                We are conducting research on how people use language to convey information to each other to improve the conversational
-                                capabilities of chatbots. To investigate effective ways of conveying information to others, we are collecting a conversation
-                                dataset. This dataset will be used to improve the functionality of chatbots.
+                            We are currently conducting research on the utilization of language in conveying information to enhance the conversational proficiency of chatbots. 
+                            To effectively investigate the methods of transmitting information to others, we are collecting a dataset of conversations. 
+                            This dataset will be instrumental in enhancing the functionality of chatbots.
 
                             </p>
                             <p>
-                                In this experiment, you will assume the role of a real estate agent and imagine that you are standing in a room of a property.
-                                You will be required to describe the room's features to an experimenter playing the role of a customer. You will be provided
-                                with instructions on which features to convey (such as "size of the living room" or "view from the room") and the customer's
-                                persona. Please describe the room's features in a way that the customer satisfies. Additionally, the customer may request
-                                information beyond the given instructions (such as "type of flooring"). Please try your best to convey as much information as
-                                possible to satisfy the customer, but do not provide any information further beyond the given instructions (such as "location of
-                                the property"). The conversation will be limited to a maximum of 10 turns. 1 turn is a pair of messages from the agent and the customer.
-
+                            For this experiment, you will be required to play the role of a real estate agent and imagine yourself in a room within a property. 
+                            The task at hand is to communicate the room's features to an experimenter who will be acting as a customer. 
+                            The provided instructions will specify which features to communicate, such as "size of the living room" or "view from the room," 
+                            along with the customer's persona. 
+                            <b> 
+                            Your objective is to effectively convey the room's attributes to satisfy the customer's preferences wwithin the constraints of the given instructions. 
+                            You can make the customer envision a scenario where the customer enjoys living in this property. 
+                            </b>  
+                            It is important to refrain from providing information beyond the given instructions, such as "location of the property." 
+                            The conversation will be restricted to a maximum of 10 turns, with one turn being defined as a pair of messages between the agent and the customer.
                             </p>
                             <p>
-                                The conversation will take place using this web platform. Please follow the instructions below to participate in the experiment.
+                                The conversation will take place on this web platform. Please adhere to the instructions provided below.
                             </p>
                             <ol>
                                 <li> Click the start button below. </li>
