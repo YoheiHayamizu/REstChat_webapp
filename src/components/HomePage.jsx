@@ -128,10 +128,17 @@ class HomePage extends React.Component {
                             <h1>Notes</h1>
                             <div>
                                 <p> <b>GOOD Utterance:</b>
-                                    "The living room is spacious, which size is 400 sq. feet. You can have a party, inviting your colleagues." (specific + detailed)
+                                <ol>
+                                    <li> "The living room is spacious, which size is 400 sq. feet. You can have a party, inviting your colleagues." (specific + detailed) </li>
+                                    <li> "The kitchen is open to the living room, so it's really comfortable to cook and easily relax as you spend quality time with your family." (specific + persuasive) </li>
+                                </ol>    
                                 </p>
                                 <p> <b>BAD Utterance:</b>
-                                    "The living room is good." (unspecific + unhelpful)
+                                <ol>
+                                    <li> "The living room is good." (unspecific + unhelpful) </li>
+                                    <li> "The size of this room is 320 square feet." (descriptive, but not alluring) </li>
+                                </ol>  
+                                    
                                 </p>
                             </div>
                         </div>
