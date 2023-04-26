@@ -1,1 +1,122 @@
-[{"age":36,"gender":"Female","marital_status":"Married with three young children","education":"Master's degree in education","income":"$120,000 per year","location":"Suburban area","id":"000"},{"age":45,"gender":"Female","marital_status":"Married with adult children","education":"Bachelor's degree in business","income":"$2 million+ per year","location":"Based in China, looking to buy a second home in the US","id":"001"},{"age":45,"gender":"Male","marital_status":"Divorced with no children","education":"Associate's degree","income":"$60,000 per year","location":"Urban area","id":"002"},{"age":28,"gender":"Male","marital_status":"Single","education":"Bachelor's degree in computer science","income":"$70,000 per year","location":"Urban area","id":"003"},{"age":32,"gender":"Female","marital_status":"Married with two children","education":"Bachelor's degree in business administration","income":"$80,000 per year","location":"Suburban area","id":"004"}]
+[
+    {
+        "Age": 32,
+        "Gender": "she/her/her",
+        "Education": "Bachelor's degree",
+        "Marital status": "Married with two children",
+        "Job": "Marketing Manager",
+        "Hobbies": [
+            "Yoga",
+            "Reading",
+            "Traveling"
+        ]
+    },
+    {
+        "Age": 27,
+        "Gender": "they/their/their",
+        "Education": "Associate's degree",
+        "Marital status": "Single",
+        "Job": "Software Developer",
+        "Hobbies": [
+            "Gaming",
+            "Hiking",
+            "Cooking"
+        ]
+    },
+    {
+        "Age": 45,
+        "Gender": "he/his/him",
+        "Education": "Master's degree",
+        "Marital status": "Married with no children",
+        "Job": "CEO",
+        "Hobbies": [
+            "Golfing",
+            "Fine dining",
+            "Traveling"
+        ]
+    },
+    {
+        "Age": 29,
+        "Gender": "he/his/him",
+        "Education": "High School Diploma",
+        "Marital status": "Single",
+        "Job": "Delivery Driver",
+        "Hobbies": [
+            "Basketball",
+            "Listening to music",
+            "Playing video games"
+        ]
+    },
+    {
+        "Age": 38,
+        "Gender": "she/her/her",
+        "Education": "Master's degree",
+        "Marital status": "Divorced with one child",
+        "Job": "Attorney",
+        "Hobbies": [
+            "Running",
+            "Cooking",
+            "Wine tasting"
+        ]
+    },
+    {
+        "Age": 56,
+        "Gender": "he/his/him",
+        "Education": "PhD",
+        "Marital status": "Married with grown children",
+        "Job": "College Professor",
+        "Hobbies": [
+            "Reading",
+            "Watching documentaries",
+            "Gardening"
+        ]
+    },
+    {
+        "Age": 42,
+        "Gender": "she/her/her",
+        "Education": "Doctorate degree",
+        "Marital status": "Married with three children",
+        "Job": "Surgeon",
+        "Hobbies": [
+            "Running marathons",
+            "Cooking international cuisine",
+            "Traveling"
+        ]
+    },
+    {
+        "Age": 31,
+        "Gender": "they/their/their",
+        "Education": "Master's degree",
+        "Marital status": "Single",
+        "Job": "Graphic Designer",
+        "Hobbies": [
+            "Photography",
+            "Playing guitar",
+            "Hiking"
+        ]
+    },
+    {
+        "Age": 49,
+        "Gender": "she/her/her",
+        "Education": "Bachelor's degree",
+        "Marital status": "Married with two children",
+        "Job": "Teacher",
+        "Hobbies": [
+            "Gardening",
+            "Painting",
+            "Baking"
+        ]
+    },
+    {
+        "Age": 57,
+        "Gender": "he/his/him",
+        "Education": "High school diploma",
+        "Marital status": "Divorced with grown children",
+        "Job": "Construction Worker",
+        "Hobbies": [
+            "Fishing",
+            "Fixing up old cars",
+            "Watching football"
+        ]
+    }
+]

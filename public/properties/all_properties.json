@@ -6,7 +6,7 @@
             "Ceiling lights",
             "Wall sconces"
         ],
-        "View": "Park or greenery",
+        "View": "Park",
         "Room Relationship": [
             "Adjacent to Bathroom"
         ],
@@ -20,7 +20,7 @@
             "Ceiling lights",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Ocean or water views",
+        "View": "Water views",
         "Room Relationship": [
             "Adjacent to Bathroom"
         ],
@@ -49,7 +49,7 @@
             "Wall sconces",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Forest or woodland view",
+        "View": "Forest",
         "Room Relationship": [
             "Adjacent to Bathroom"
         ],
@@ -63,7 +63,7 @@
             "Ceiling lights",
             "Chandelier"
         ],
-        "View": "Mountains or hills",
+        "View": "Mountains",
         "Room Relationship": [
             "Adjacent to Bathroom"
         ],
@@ -92,7 +92,7 @@
             "Wall sconces",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Park or greenery",
+        "View": "Park",
         "Room Relationship": [
             "Adjacent to Bathroom"
         ],
@@ -107,7 +107,7 @@
             "Pendant lights",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Courtyard or garden",
+        "View": "Garden",
         "Room Relationship": [
             "Adjacent to Bathroom"
         ],
@@ -121,7 +121,7 @@
             "Ceiling lights",
             "Chandelier"
         ],
-        "View": "River or lake view",
+        "View": "Lake view",
         "Room Relationship": [
             "Adjacent to Bathroom"
         ],
@@ -136,7 +136,7 @@
             "Wall sconces",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Mountains or hills",
+        "View": "Mountains",
         "Room Relationship": [
             "Adjacent to Living room"
         ],
@@ -175,7 +175,7 @@
         "Lighting": [
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Park or greenery",
+        "View": "Park",
         "Room Relationship": [
             "Connected to Bedroom"
         ],
@@ -201,7 +201,7 @@
         "Lighting": [
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Ocean or water views",
+        "View": "Water views",
         "Room Relationship": [
             "Connected to Master Bedroom"
         ],
@@ -240,7 +240,7 @@
         "Lighting": [
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Courtyard or garden",
+        "View": "Garden",
         "Room Relationship": [
             "Adjacent to Living room"
         ],
@@ -298,7 +298,7 @@
             "Pendant lights",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Park or greenery",
+        "View": "Park",
         "Room Relationship": [
             "Adjacent to Kitchen",
             "Connected to a Patio"
@@ -314,7 +314,7 @@
             "Wall sconces",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Courtyard or garden",
+        "View": "Garden",
         "Room Relationship": [
             "Adjacent to Dining Room",
             "Adjacent to Kitchen",
@@ -331,7 +331,7 @@
             "Chandelier",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Ocean or water views",
+        "View": "Water views",
         "Room Relationship": [
             "Adjacent to Dining Room",
             "Adjacent to Kitchen",
@@ -348,7 +348,7 @@
             "Wall sconces",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Mountain or hills",
+        "View": "Mountain",
         "Room Relationship": [
             "Adjacent to Dining Room",
             "Adjacent to Kitchen",
@@ -366,7 +366,7 @@
             "Chandelier",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Park or greenery",
+        "View": "Park",
         "Room Relationship": [
             "Adjacent to Kitchen",
             "Separate from Bedrooms"
@@ -397,7 +397,7 @@
             "Chandelier",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Ocean or water views",
+        "View": "Water views",
         "Room Relationship": [
             "Adjacent to Courtyard",
             "Separate from Bedrooms"
@@ -413,7 +413,7 @@
             "Pendant lights",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Mountains or hills",
+        "View": "Mountains",
         "Room Relationship": [
             "Adjacent to Yard",
             "Separate from Bedrooms and Kitchen"
@@ -429,7 +429,7 @@
             "Wall sconces",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Forest or woodland view",
+        "View": "Forest",
         "Room Relationship": [
             "Adjacent to Dining Room",
             "Separate from Bedrooms and Kitchen"
@@ -446,7 +446,7 @@
             "Under-cabinet lights",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Courtyard or garden",
+        "View": "Garden",
         "Room Relationship": [
             "Adjacent to Dining Room",
             "Separate from Bedrooms and Living Room"
@@ -462,7 +462,7 @@
             "Under-cabinet lights",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Forest or woodland view",
+        "View": "Forest",
         "Room Relationship": [
             "Open to Living Room",
             "Adjacent to Dining Room"
@@ -495,7 +495,7 @@
             "Under-cabinet lights",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Park or greenery",
+        "View": "Park",
         "Room Relationship": [
             "Open to Living Room",
             "Adjacent to Dining Room"
@@ -527,7 +527,7 @@
             "Under-cabinet lights",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Courtyard or garden",
+        "View": "Garden",
         "Room Relationship": [
             "Adjacent to Dining Room"
         ],
@@ -591,7 +591,7 @@
             "Under-cabinet lights",
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Park or greenery",
+        "View": "Park",
         "Room Relationship": [
             "Open to Dining Room"
         ],
@@ -618,7 +618,7 @@
         "Lighting": [
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Park or greenery",
+        "View": "Park",
         "Room Relationship": [
             "Adjacent to Living Room",
             "Open to Kitchen"
@@ -646,7 +646,7 @@
         "Lighting": [
             "Natural lighting (from windows or skylights)"
         ],
-        "View": "Courtyard or garden",
+        "View": "Garden",
         "Room Relationship": [
             "Open to Living Room",
             "Adjacent to Kitchen"
@@ -660,7 +660,7 @@
         "Lighting": [
             "Wall sconces"
         ],
-        "View": "Ocean or water views",
+        "View": "Water views",
         "Room Relationship": [
             "Open to Living Room",
             "Adjacent to Kitchen"
@@ -687,7 +687,7 @@
         "Lighting": [
             "Pendant lights"
         ],
-        "View": "Forest or woodland view",
+        "View": "Forest",
         "Room Relationship": [
             "Open to Living Room",
             "Adjacent to Kitchen"
@@ -729,7 +729,7 @@
         "Lighting": [
             "Pendant lights"
         ],
-        "View": "Park or greenery",
+        "View": "Park",
         "Room Relationship": [
             "Adjacent to Living Room",
             "Close to Kitchen"
@@ -743,7 +743,7 @@
         "Lighting": [
             "N\/A"
         ],
-        "View": "Forest or woodland view",
+        "View": "Forest",
         "Room Relationship": [
             "Adjacent to Dining room",
             "Adjacent to Kitchen"
@@ -757,7 +757,7 @@
         "Lighting": [
             "N\/A"
         ],
-        "View": "Ocean or water views",
+        "View": "Water views",
         "Room Relationship": [
             "Adjacent to Living room",
             "Adjacent to Bedroom"
@@ -771,7 +771,7 @@
         "Lighting": [
             "N\/A"
         ],
-        "View": "Mountains or hills",
+        "View": "Mountains",
         "Room Relationship": [
             "Adjacent to Living Room",
             "Adjacent to Kitchen"
@@ -785,7 +785,7 @@
         "Lighting": [
             "N\/A"
         ],
-        "View": "Park or greenery",
+        "View": "Park",
         "Room Relationship": [
             "Adjacent to Dining Room",
             "Adjacent to Living Room"
@@ -799,7 +799,7 @@
         "Lighting": [
             "N\/A"
         ],
-        "View": "Ocean or water views",
+        "View": "Water views",
         "Room Relationship": [
             "Adjacent to Bedroom",
             "Adjacent to Living Room"
@@ -813,7 +813,7 @@
         "Lighting": [
             "N\/A"
         ],
-        "View": "Park or greenery",
+        "View": "Park",
         "Room Relationship": [
             "Adjacent to Living Room",
             "Adjacent to Dining Room"
@@ -827,7 +827,7 @@
         "Lighting": [
             "N\/A"
         ],
-        "View": "Forest or woodland view",
+        "View": "Forest",
         "Room Relationship": [
             "Adjacent to Kitchen"
         ],
@@ -840,7 +840,7 @@
         "Lighting": [
             "N\/A"
         ],
-        "View": "Mountain or hills",
+        "View": "Mountain",
         "Room Relationship": [
             "Adjacent to Living Room",
             "Adjacent to Bedroom"
@@ -867,7 +867,7 @@
         "Lighting": [
             "N\/A"
         ],
-        "View": "Ocean or water views",
+        "View": "Water views",
         "Room Relationship": [
             "Adjacent to Living Room",
             "Adjacent to Bedroom"
