@@ -94,23 +94,30 @@ class HomePage extends React.Component {
                             We are currently conducting research on the utilization of language in conveying information to enhance the conversational proficiency of chatbots. 
                             To effectively investigate the methods of transmitting information to others, we are collecting a dataset of conversations. 
                             This dataset will be instrumental in enhancing the functionality of chatbots.
-
                             </p>
+
                             <p>
                             For this experiment, you will be required to play the role of a real estate agent and imagine yourself in a room within a property. 
                             The task at hand is to communicate the room's features to an experimenter who will be acting as a customer. 
                             The provided instructions will specify which features to communicate, such as "size of the living room" or "view from the room," 
-                            along with the customer's persona. 
-                            <b> 
+                            along with the customer's persona.  
+                            </p>
+
+                            <p><b> 
                             Your objective is to effectively convey the room's attributes to satisfy the customer's preferences within the constraints of the given instructions. 
-                            You can make the customer envision a scenario where the customer enjoys living in this property. 
-                            </b>  
-                            It is important to refrain from providing information beyond the given instructions, such as "location of the property." 
-                            The conversation will be restricted to a maximum of 10 turns, with one turn being defined as a pair of messages between the agent and the customer.
-                            </p>
+                            You can make the customer envision a scenario where the customer enjoys living in this property.  
+                            </b></p>   
+
                             <p>
-                                The conversation will take place on this web platform. Please adhere to the instructions provided below.
+                            It is important to refrain from providing information beyond the given instructions, such as "location of the property."  
+                            Also, note that you and the customer will only be in this room and will not be able to move to the rest of the property during a conversation. 
+                            The conversation will be restricted to a maximum of 10 turns, with one turn being defined as a pair of messages between the agent and the customer. 
                             </p>
+
+                            <p>
+                            The conversation will take place on this web platform. Please adhere to the instructions provided below.
+                            </p>
+
                             <ol>
                                 <li> Click the start button below. </li>
                                 <li> Once you have accessed the chat tool, you will see the information on room features and a customer profile on the left and
@@ -123,6 +130,7 @@ class HomePage extends React.Component {
                                 </li>
                                 <li> Once the conversation is complete, please close the chat by clicking the button bottom. </li>
                             </ol>
+                            
                             <br />
                             {/* <br /> */}
                             <h1>Notes</h1>
